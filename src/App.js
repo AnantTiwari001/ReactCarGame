@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Score from './components/Score.js'
+import Cars from './components/Cars.js'
+import Game from './components/Game';
+import Play from './components/Play';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Score/>
+    <div style={{display:'flex', justifyContent:'center',alignItems:'center'}}>
+    <Play>
+      <Game/>
+      <Cars/>
+    </Play>
     </div>
+    </>
   );
 }
 
