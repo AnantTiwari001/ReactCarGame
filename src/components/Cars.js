@@ -2,11 +2,8 @@ import React, { useState } from "react";
 // import road from '../images/road.jpg'
 import car0 from "../images/car0s.png";
 
-export default function Cars() {
-  const [carPos, setCarPos] = useState(1);
-  const handleCarPos = (n) => {
-    setCarPos(n);
-  };
+export default function Cars({carPos, handleCarPos}) {
+  
   const background = {
     background: `url(${car0})`,
     backgroundRepeat: "no-repeat",

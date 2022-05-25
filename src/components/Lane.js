@@ -31,12 +31,9 @@ export default function Lane({pos, handleIncrease}) {
             once.current=false;
         }
     },[move.current])
-    const sttop=()=>{
-        clearInterval(move.current)
-    }
   return (
     <>
-      <div style={background} className="inline-block w-1/3 h-full text-center" onClick={sttop}> car</div>
+      <div style={background} className="inline-block w-1/3 h-full text-center"> car</div>
     </>
   )
 }
