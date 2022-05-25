@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ReactCarGame/static/css/main.b3b41732.css",
+    "main.js": "/ReactCarGame/static/js/main.6525dbfc.js",
+    "static/js/787.a284a673.chunk.js": "/ReactCarGame/static/js/787.a284a673.chunk.js",
+    "static/media/road.jpg": "/ReactCarGame/static/media/road.c6b3b599740ec2070a0c.jpg",
+    "static/media/car0s.png": "/ReactCarGame/static/media/car0s.aa2701edc3334995b2c8.png",
+    "static/media/car.png": "/ReactCarGame/static/media/car.070b2934b91b054e6c1a.png",
+    "index.html": "/ReactCarGame/index.html",
+    "main.b3b41732.css.map": "/ReactCarGame/static/css/main.b3b41732.css.map",
+    "main.6525dbfc.js.map": "/ReactCarGame/static/js/main.6525dbfc.js.map",
+    "787.a284a673.chunk.js.map": "/ReactCarGame/static/js/787.a284a673.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3b41732.css",
+    "static/js/main.6525dbfc.js"
+  ]
+}
