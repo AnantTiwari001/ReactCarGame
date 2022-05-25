@@ -25,11 +25,6 @@ export default function Play() {
 
   const increase = (n) => {
     if (run) {
-      // if (lane1.current>285 || lane2.current>285 || lane3.current>285) {
-      // run= false
-      // alert('Game over bitch')
-      // return 0;
-      // }
       if (n === 1) {
         lane1.current += 1;
         if (lane1.current > 285 ) {
@@ -38,7 +33,7 @@ export default function Play() {
             alert("Game over!");
             return 0;
           }else{
-            lane1.current= 0-90-Math.floor(Math.random()*200);
+            lane1.current= 0-90-Math.floor(Math.random()*500);
             setscore(prescore=> prescore+1)
           }
         }
@@ -49,7 +44,7 @@ export default function Play() {
             alert("Game over!");
             return 0;
           }else{
-            lane2.current= 0-90-Math.floor(Math.random()*200);
+            lane2.current= 0-90-Math.floor(Math.random()*500);
             setscore(prescore=> prescore+1)
           }
         }
@@ -61,7 +56,7 @@ export default function Play() {
             alert("Game over!");
             return 0;
           }else{
-            lane3.current= 0-90-Math.floor(Math.random()*200);
+            lane3.current= 0-90-Math.floor(Math.random()*500);
             setscore(prescore=> prescore+1)
           }
         }
@@ -71,7 +66,6 @@ export default function Play() {
       }
     }
   };
-
   return (
     <div>
       <Score score={score} />

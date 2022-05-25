@@ -13,12 +13,8 @@ export default function Lane({pos, handleIncrease}) {
 
     const preDis= pos
     const increaseDis=()=>{
-        //to set the state for the car pos
-
-        // preDis.current+=1
         handleIncrease()
         setCarDis(preDis.current)
-        // console.log(preDis.current)
     }
 
     const move= useRef()

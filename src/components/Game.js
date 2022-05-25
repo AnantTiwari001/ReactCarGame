@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Lane from './Lane'
 
 export default function Game({lane1, lane2, lane3, increase}) {

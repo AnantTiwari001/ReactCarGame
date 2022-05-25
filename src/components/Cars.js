@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import road from '../images/road.jpg'
 import car0 from "../images/car0s.png";
 
 export default function Cars({carPos, handleCarPos}) {
